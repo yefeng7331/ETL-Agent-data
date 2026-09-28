@@ -1,0 +1,59 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.asc
+*.secret
+*.secrets
+secrets/
+credentials/
+*credentials*.json
+*service-account*.json
+*.tfstate
+*.tfstate.*
+
+# Local data and runtime output
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+*.pid
+celerybeat-schedule*
+*.rdb
+dump.rdb
+appendonly.aof
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend and build output
+node_modules/
+.vite/
+dist/
+build/
+coverage/
+
+# Local tools and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
